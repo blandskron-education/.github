@@ -1,27 +1,80 @@
-# 🎓 Blandskron Education
+# Blandskron Education
 
-**Open-source education for modern software engineering, AI, cybersecurity, cloud and emerging technologies.**
+**Open-source education for modern software engineering, artificial intelligence, cybersecurity, cloud and emerging technologies.**
 
 [![GitHub Organization](https://img.shields.io/badge/GitHub-Blandskron%20Education-181717?logo=github)](https://github.com/blandskron-education)
 [![Blandskron](https://img.shields.io/badge/Blandskron-Official-2563EB)](https://blandskron.com)
 
----
+> **Learn. Build. Experiment. Share.**
 
-## 🚀 Learn. Build. Experiment. Share.
+Blandskron Education is an open-source educational initiative dedicated to practical, engineering-driven technology education.
 
-**Blandskron Education** is an open-source educational initiative focused on learning technology through real, practical and progressively challenging projects.
+We build learning environments where concepts become working software. Our repositories are designed for developers, students, educators and contributors who want to understand technology by building, testing, breaking, documenting and improving real systems.
 
-Our repositories are designed to transform concepts into working software, providing developers and students with environments where they can **explore, build, break, understand and improve real systems**.
-
-The goal is simple:
+Our guiding principle is simple:
 
 > **Learn technology by building technology.**
 
 ---
 
-## 🧭 Learning Paths
+## Mission
 
-### 🐍 Python
+Our mission is to make high-quality technical education **open, practical, reproducible and accessible**.
+
+Blandskron Education aims to bridge the gap between learning a concept and understanding how that concept behaves inside a real software system.
+
+We focus on:
+
+* Software engineering
+* Backend and web development
+* Artificial intelligence
+* Cybersecurity
+* Cloud computing
+* DevOps and automation
+* Databases
+* APIs and distributed systems
+* Software architecture
+* Open-source development
+* AI-assisted software engineering
+
+The objective is not simply to teach how to write code.
+
+The objective is to teach how to **design, build, test, secure, document, operate and improve software**.
+
+---
+
+## Learning Philosophy
+
+Blandskron Education follows a project-based learning model.
+
+```text
+Concept
+   │
+   ▼
+Implementation
+   │
+   ▼
+Experimentation
+   │
+   ▼
+Testing
+   │
+   ▼
+Documentation
+   │
+   ▼
+Improvement
+```
+
+Each project is an opportunity to move from theoretical understanding to practical engineering experience.
+
+Learners are encouraged to inspect the code, modify implementations, test assumptions, identify limitations and propose better solutions.
+
+---
+
+## Learning Paths
+
+### Python
 
 Learn Python progressively, from programming fundamentals to advanced software development.
 
@@ -37,11 +90,9 @@ Python
 └── Advanced Development
 ```
 
----
+### Django
 
-### 🌐 Django
-
-Build production-oriented web applications while learning the foundations of modern backend development.
+Build production-oriented web applications while learning the foundations of modern backend engineering.
 
 ```text
 Django
@@ -58,29 +109,25 @@ Django
 └── Production Architecture
 ```
 
----
+### Artificial Intelligence
 
-### 🤖 Artificial Intelligence
-
-Explore modern artificial intelligence through practical implementations and experiments.
+Explore modern artificial intelligence through practical implementations, integrations and experiments.
 
 ```text
 Artificial Intelligence
 ├── Machine Learning
 ├── Large Language Models
 ├── Generative AI
-├── RAG
+├── Retrieval-Augmented Generation
 ├── AI Agents
 ├── Model Integration
 ├── AI APIs
 └── Applied AI
 ```
 
----
+### Cybersecurity
 
-### 🔐 Cybersecurity
-
-Learn secure software development and offensive/defensive security concepts through controlled educational environments.
+Study secure software development and offensive and defensive security concepts through controlled educational environments.
 
 ```text
 Cybersecurity
@@ -94,18 +141,16 @@ Cybersecurity
 └── DevSecOps
 ```
 
-> Security-related repositories are intended exclusively for education, research and authorized environments.
+> Security-related repositories are intended exclusively for education, research and use in systems where the user has explicit authorization.
 
----
+### Cloud & DevOps
 
-### ☁️ Cloud & DevOps
-
-Understand how modern applications move from source code to reliable infrastructure.
+Understand how modern applications move from source code to reliable and observable infrastructure.
 
 ```text
 Cloud & DevOps
 ├── Git & GitHub
-├── Docker
+├── Containers
 ├── CI/CD
 ├── Infrastructure
 ├── Observability
@@ -114,11 +159,9 @@ Cloud & DevOps
 └── Cloud Architecture
 ```
 
----
+### Software Engineering
 
-### 🏗️ Software Engineering
-
-Go beyond writing code and learn how maintainable software systems are designed.
+Go beyond writing code and understand how maintainable software systems are designed and evolved.
 
 ```text
 Software Engineering
@@ -135,47 +178,52 @@ Software Engineering
 
 ---
 
-## 🧪 Project-Based Learning
+## Project-Based Education
 
-Most repositories in **Blandskron Education** are built around a simple philosophy:
+Repositories within Blandskron Education may include:
 
-**Concept → Implementation → Experimentation → Documentation → Improvement**
+* Guided learning projects
+* Technical laboratories
+* Reference implementations
+* Security laboratories
+* Artificial intelligence experiments
+* Web applications
+* REST APIs
+* Database projects
+* Containerized environments
+* Automation workflows
+* Architecture examples
+* Developer tooling
 
-Instead of learning exclusively through theory, each repository provides an opportunity to work with real code and understand how software behaves.
+Projects are intended to be explored rather than merely copied.
 
-Projects may include:
+A repository should help answer not only:
 
-* 📚 Guided learning projects
-* 🧪 Technical laboratories
-* 🏗️ Reference implementations
-* 🔐 Security labs
-* 🤖 Artificial intelligence experiments
-* 🌐 Web applications
-* 🔌 APIs and integrations
-* 🗄️ Database projects
-* 🐳 Containerized environments
-* ⚙️ Automation workflows
+> **How does this work?**
+
+but also:
+
+> **Why was it designed this way, how can it fail, and how could it be improved?**
 
 ---
 
-## 📈 Progressive Learning
+## Progressive Learning
 
-Some repositories use identifiers such as:
+Some repositories use structured identifiers such as:
 
 ```text
 m6-l1-p1
 m6-l1-p2
 m6-l2-p1
 m7-l1-p1
-...
 ```
 
-These identifiers represent structured educational sequences:
+These identifiers describe their position within a learning sequence:
 
 ```text
-m  → Module
-l  → Lesson
-p  → Project
+m → Module
+l → Lesson
+p → Project
 ```
 
 For example:
@@ -188,87 +236,286 @@ m6-l3-p2
 └──────── Module 6
 ```
 
-This allows students to progress through increasingly complex concepts while maintaining a clear learning path.
+This structure allows related repositories to form progressive learning paths while remaining independently executable and inspectable.
 
 ---
 
-## 🧠 Human-Friendly. Agent-Ready.
+## Repository Standards
 
-Modern software development increasingly combines **human developers and AI coding agents**.
+Blandskron Education aims to progressively bring its maintained repositories toward a common engineering standard.
 
-Whenever appropriate, Blandskron Education projects aim to provide:
+Depending on the project, repositories may include:
+
+```text
+repository/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── CHANGELOG.md
+├── AGENTS.md
+├── docs/
+├── src/
+├── tests/
+├── .github/
+│   └── workflows/
+├── Dockerfile
+└── docker-compose.yml
+```
+
+Not every educational project requires every component.
+
+The goal is to introduce professional engineering practices when they improve the learning experience.
+
+Core principles include:
 
 * Clear documentation
-* Predictable project structures
 * Reproducible environments
-* Explicit development instructions
+* Explicit dependencies
 * Automated testing
-* Git-friendly workflows
-* AI-agent-friendly context
-* Human-readable architecture
-
-The objective is to make repositories understandable by both **developers and intelligent development tools**.
+* Secure defaults
+* Version control discipline
+* Consistent project structure
+* CI/CD where appropriate
+* Architecture documentation
+* Maintainable code
+* Open-source collaboration
 
 ---
 
-## 🤝 Contributing
+## Human-Friendly. Agent-Ready.
 
-Blandskron Education is built around open knowledge.
+Modern software engineering increasingly involves collaboration between developers and AI coding agents.
 
-Contributions may include:
+Blandskron Education embraces this evolution.
+
+Projects should remain understandable to humans while providing enough structured context for AI-assisted development tools to operate effectively.
+
+Where appropriate, repositories may provide:
+
+```text
+README.md          → Project context and usage
+AGENTS.md          → Instructions for AI coding agents
+CONTRIBUTING.md    → Contribution workflow
+SECURITY.md        → Security policies
+docs/              → Extended technical documentation
+tests/             → Executable behavioral expectations
+.github/           → Automation and collaboration workflows
+```
+
+The principle is:
+
+> **Humans define intent. Systems provide context. Agents accelerate execution.**
+
+AI-generated contributions should remain reviewable, testable and accountable under the same engineering standards as human-written contributions.
+
+---
+
+## Open-Source Engineering
+
+Learning open source requires more than reading source code.
+
+Contributors should be able to experience real collaborative workflows:
+
+```text
+Discover
+   ↓
+Fork
+   ↓
+Branch
+   ↓
+Build
+   ↓
+Test
+   ↓
+Commit
+   ↓
+Pull Request
+   ↓
+Review
+   ↓
+Improve
+```
+
+This provides practical experience with the same fundamental workflow used across modern open-source software development.
+
+---
+
+## Contributing
+
+Contributions are welcome.
+
+You can contribute by:
 
 * Fixing bugs
 * Improving documentation
-* Adding tests
+* Adding or improving tests
 * Improving accessibility
 * Refactoring code
+* Improving security
 * Adding educational examples
 * Improving development environments
+* Reporting reproducible issues
 * Proposing new learning projects
+* Reviewing pull requests
 
-Fork a repository, create a branch and submit a Pull Request.
+A typical contribution workflow is:
 
-Every meaningful contribution helps improve the learning experience for the next developer.
+```bash
+git clone <repository>
+git checkout -b feature/my-improvement
 
----
+# Make your changes
 
-## ⭐ Support Open Education
+git add .
+git commit -m "feat: describe the improvement"
+git push origin feature/my-improvement
+```
 
-If a project helps you learn something new:
+Then open a Pull Request describing the problem, solution and relevant validation.
 
-**Give it a ⭐**
-
-Stars help educational open-source projects reach more developers and make useful learning resources easier to discover.
-
-You can also:
-
-* Fork projects and experiment
-* Open issues
-* Suggest improvements
-* Submit pull requests
-* Share repositories with other learners
+Before contributing, review the repository's `CONTRIBUTING.md` and project-specific instructions when available.
 
 ---
 
-## 🌎 Open Knowledge
+## Responsible Security Research
+
+Some projects may intentionally demonstrate vulnerable software, attack surfaces or defensive techniques.
+
+These environments exist to support:
+
+* Security education
+* Secure development
+* Vulnerability analysis
+* Defensive engineering
+* Authorized penetration testing
+* Academic and technical research
+
+Never use techniques demonstrated in these repositories against systems without explicit authorization.
+
+---
+
+## Open Knowledge
 
 We believe high-quality technical education should be accessible, practical and open.
 
 Our projects are developed publicly so developers around the world can:
 
-**study them · run them · modify them · question them · improve them · contribute back**
+**Study · Run · Modify · Test · Question · Improve · Contribute**
+
+Knowledge becomes more valuable when it can be examined, challenged and improved by others.
 
 ---
 
-## 🏢 About
+## For Students
 
-**Blandskron Education** is an open-source educational initiative from the **Blandskron ecosystem**, focused on software engineering and emerging technologies.
+Use these repositories to go beyond tutorials.
 
-Created and maintained by **Bastian Landskron**.
+Clone projects.
 
-🌐 [blandskron.com](https://blandskron.com)
-💻 [GitHub — Blandskron](https://github.com/Blandskron)
-🎓 [GitHub — Blandskron Education](https://github.com/blandskron-education)
+Read unfamiliar code.
+
+Run the tests.
+
+Change implementations.
+
+Break things intentionally.
+
+Debug failures.
+
+Study architectural decisions.
+
+Build alternative solutions.
+
+The objective is not to reproduce the repository exactly.
+
+The objective is to understand enough to build something better.
+
+---
+
+## For Educators
+
+Repositories may be used as:
+
+* Classroom examples
+* Laboratory environments
+* Technical demonstrations
+* Assignment foundations
+* Architecture discussions
+* Security exercises
+* Code review exercises
+* Independent learning resources
+
+Educators are encouraged to adapt the projects to their own teaching environments while respecting the license of each repository.
+
+---
+
+## For Contributors
+
+You do not need to be an expert to contribute.
+
+Useful contributions can begin with documentation corrections, tests, reproducible bug reports or improvements to development environments.
+
+Open source is also a learning environment.
+
+A well-documented small contribution can be more valuable than a large change that cannot be understood or maintained.
+
+---
+
+## Ecosystem
+
+Blandskron Education is part of the broader **Blandskron ecosystem**.
+
+```text
+Blandskron
+│
+├── Open Source
+├── Artificial Intelligence
+├── Software Engineering
+├── Research
+│
+└── Blandskron Education
+    ├── Learning Paths
+    ├── Educational Projects
+    ├── Technical Labs
+    ├── Reference Implementations
+    └── Open-Source Contributions
+```
+
+The main Blandskron GitHub profile focuses on production-grade projects, open-source software, research and engineering initiatives.
+
+Blandskron Education provides a dedicated environment for **learning, experimentation and technical education**.
+
+---
+
+## Support the Initiative
+
+If a repository helps you understand a technology, consider starring it.
+
+Stars help useful educational resources become easier for other developers to discover.
+
+You can also support the initiative by:
+
+* Sharing projects
+* Reporting issues
+* Improving documentation
+* Contributing code
+* Reviewing changes
+* Suggesting new learning material
+
+The most valuable contribution is knowledge that becomes reusable by others.
+
+---
+
+## About Blandskron Education
+
+**Blandskron Education** is an open-source educational initiative focused on modern software engineering and emerging technologies.
+
+It is part of the **Blandskron ecosystem** and is created and maintained by **Bastian Landskron**, with contributions from the open-source community.
+
+[Official Website](https://blandskron.com)
+[GitHub — Blandskron](https://github.com/Blandskron)
+[GitHub — Blandskron Education](https://github.com/blandskron-education)
 
 ---
 
@@ -277,5 +524,5 @@ Created and maintained by **Bastian Landskron**.
 </p>
 
 <p align="center">
-  Open-source education for the next generation of software builders.
+  Open-source education for modern software builders.
 </p>
